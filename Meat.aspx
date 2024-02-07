@@ -33,7 +33,7 @@
         
         <div class ="row">            
             <div class="col-sm-2 offset-sm-1"  >
-                <asp:LinkButton ID="LnkBtnMeats" runat="server" OnClick="LnkBtnMeats_Click">Meats</asp:LinkButton>            
+                <asp:LinkButton ID="LnkBtnMeats" runat="server" OnClick="LnkBtnMeats_Click" Font-Bold="True">Meats</asp:LinkButton>            
             </div>
             <div class="col-sm-2">
                 <asp:LinkButton ID="LnkBtnDairy" runat="server" OnClick="LnkBtnDairy_Click">Dairy</asp:LinkButton>

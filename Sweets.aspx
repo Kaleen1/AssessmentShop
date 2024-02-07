@@ -42,7 +42,7 @@
                 <asp:LinkButton ID="LnkBtnVeg" runat="server" OnClick="LnkBtnVeg_Click">Vegetables</asp:LinkButton>
             </div>
             <div class="col-sm-2">
-                <asp:LinkButton ID="LnkBtnSweet" runat="server" OnClick="LnkBtnSweet_Click">Sweets</asp:LinkButton>
+                <asp:LinkButton ID="LnkBtnSweet" runat="server" OnClick="LnkBtnSweet_Click" Font-Bold="True">Sweets</asp:LinkButton>
             </div>
             <div class="col-sm-2">
                 <asp:LinkButton ID="LnkBtnContact" runat="server" OnClick="LnkBtnContact_Click">Contact Us</asp:LinkButton>

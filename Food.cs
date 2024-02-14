@@ -8,28 +8,72 @@ namespace AssessmentShop
     public class Food
     {
         // Attributes
-        private string name, genre, picture;
-        private int price;
+        private string nameOfFood;
+        private string sizeOfDish;
+        private int noOfCalories;
+        private string pictureOfFood;
+
+
+        // Constructor (0 input parameters)
+        public Food()
+        {
+            nameOfFood = "";
+            sizeOfDish = "";
+            noOfCalories = 0;
+            pictureOfFood = "";
+        }
+
+        // Contructors (4 input parameters)
+        public Food(string nameIn, string sizeIn, int caloriesIn, string pictureIn)
+        {
+            nameOfFood = nameIn;
+            noOfCalories = caloriesIn;
+            pictureOfFood = pictureIn;
+            sizeOfDish = sizeIn;
+        }
+
+
+        // Setter Methods
+        public void setName(string nameIn)
+        {
+            nameOfFood = nameIn;
+        }
+
+        public void setCalories(int caloriesIn) 
+        {
+            noOfCalories = caloriesIn;
+        }
+
+        public void setSize(string sizeIn)
+        {
+            sizeOfDish = sizeIn;
+        }
+
+        public void setPicture(string pictureIn)
+        {
+            pictureOfFood = pictureIn;
+        }
+
 
         // Getter Methods
-        public string getName()
+        public string getNameOfFood()
         {
-            return name; 
+            return nameOfFood; 
         }
 
-        public int getPrice()
+        public int getCalories()
         {
-            return price;
+            return noOfCalories;
         }
 
-        public string getGenre()
+        public string getSize()
         {
-            return genre;
+            return sizeOfDish;
         }
 
         public string getPicture()
         {
-            return picture;
+            return pictureOfFood;
         }
 
 

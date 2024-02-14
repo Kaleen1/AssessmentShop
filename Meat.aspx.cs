@@ -16,12 +16,13 @@ namespace Template_Project
         private List<Food> meatList = new List<Food>();
         protected void Page_Load(object sender, EventArgs e)
         {
+            // Declare variables from custom class
             Food beef = new Food("Beef", "1 tonne", 3320000, "picture1");
             Food duck = new Food("Duck", "55.7 kg", 187709, "picture2");
             Food lamb = new Food("Lamb", "3 tonnes", 8820000, "picture3");
             Food elephant = new Food("African Elephant", "1 gram", 2, "picture4");
 
-            meatList.Add(chicken);
+            // add the individual products into the grouping list
             meatList.Add(beef);
             meatList.Add(duck);
             meatList.Add(lamb);
